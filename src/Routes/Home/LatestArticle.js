@@ -47,7 +47,7 @@ const LatestArticle = () => {
 
       <div className="loadMore">
         <img src="./Images/arrow.png" alt="" />
-        <span className="arrowText">LOAD MORE</span>
+        <span className="arrowText"></span>
       </div>
       {data
         .filter((item) => item.sp === "home-latestBig")
@@ -60,11 +60,11 @@ const LatestArticle = () => {
               src={d.img}
             />
             <div className="text-overlay">
-              <h2    onClick={( )=> handleImage(d)} className="LatestArtImgHead">{d.title}</h2>
+              <h2    onClick={( )=> handleImage(d)} className="LatestArtImgHead">{}</h2>
               <p className="LatestArtDateImg">
-                <span className="LatestArTravel">{d.cat}</span>
+                <span className="LatestArTravel">{}</span>
                 <span className="LatestArTravel" />
-                {`  / ${d.date} `}
+                {}
               </p>
             </div>
           </div>

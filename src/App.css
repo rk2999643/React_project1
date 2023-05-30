@@ -1,6 +1,7 @@
 *
 {
   margin: 0;
+  background-color: rgb(169, 212, 230);
 }
 
 .center{
@@ -31,14 +32,15 @@
   padding-bottom: 1rem; */
 .home{
   font-weight: 900;
-  color: black;
-  font-size: 18px;
+  color: rgb(172, 9, 9);
+  font-size: 30px;
+  font-family: fantasy;
 }
 
 
 
 .firstHr{
-  border: 2px solid #F0F0F0;
+  border: 2px solid #27b3e2;
   /* width: 80%; */
   width: 70%;
 }
@@ -123,7 +125,7 @@
   color: #FFFFFF;
   opacity: 1;  */
  
-/* } */ */
+/* } */ 
 
 .firstImageTextTwo{
   position: absolute;
@@ -222,7 +224,7 @@
 
 .genericHeaderHr{
   width: 45%;
-border: 2px solid red;
+border: 2px solid rgb(138, 95, 9);
 }
 
 
