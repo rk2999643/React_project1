@@ -5,6 +5,7 @@ import ArticleList from './ArticleList'
 import TopPost from './TopPost'
 import '../../App.css'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Footer from '../../Components/Footer/Footer'
 
 function Bollywood() {
     
@@ -24,6 +25,7 @@ function Bollywood() {
       </div>
 
       </Store>
+      <Footer/>
 
 
     </>

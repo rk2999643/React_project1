@@ -1,6 +1,7 @@
 import React from 'react'
 import CommonPage from './CommonPage'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Footer from '../../Components/Footer/Footer'
 
 function StaticPage() {
   return (
@@ -8,6 +9,7 @@ function StaticPage() {
     <Store>
       <CommonPage/>
       </Store>
+      <Footer/>
     </>
   )
 }

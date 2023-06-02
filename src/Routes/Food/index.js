@@ -3,6 +3,7 @@ import { Logo, TopNavigation , LogoMobile} from '../../Components'
 import FoodArticleList from './FoodArticleList'
 import FoodTopPost from './FoodTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Footer from '../../Components/Footer/Footer'
 
 const Food = () => {
   return (
@@ -20,6 +21,7 @@ const Food = () => {
     </div>
     </div>
     </div>
+    <Footer/>
       
     </>
   )

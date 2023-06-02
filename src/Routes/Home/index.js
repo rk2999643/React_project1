@@ -8,6 +8,7 @@ import LatestStories from "./LatestStories";
 // import Advertisement from "./Advertisement";
 import "../../App.css";
 import TopPots from "./TopPots";
+import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   //  const [state] = useContext(AppData)
@@ -31,6 +32,7 @@ const Home = () => {
           </div>
         </div>
       </Store>
+      <Footer/>
     </>
   );
 };

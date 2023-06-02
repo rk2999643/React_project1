@@ -3,6 +3,7 @@ import { Logo, TopNavigation,LogoMobile } from '../../Components'
 import TechArticleList from './TechArticleList'
 import TechTopPost from './TechTopPost'
 import Store from '../../Utility/ContextStore/contextAPI'
+import Footer from '../../Components/Footer/Footer'
 
 const Technology = () => {
   return (
@@ -17,6 +18,7 @@ const Technology = () => {
     <TechArticleList/>
     <TechTopPost/>
     </Store>
+    <Footer/>
     </div>
     </div>
     </div>
