@@ -18,7 +18,7 @@ const Technology = () => {
     <TechArticleList/>
     <TechTopPost/>
     </Store>
-    <Footer/>
+      {/* <Footer/> */}
     </div>
     </div>
     </div>

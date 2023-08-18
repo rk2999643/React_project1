@@ -1,8 +1,9 @@
 import React from 'react'
-import { Logo } from '../../Components'
+import { Logo, TopNavigation } from '../../Components'
 import "./commonPage.style.css"
 import { DateExt,GetStarted } from "../../Components";
 import {   Link, useLocation } from 'react-router-dom';
+import Latest from '../Home/Latest';
 
 
 
@@ -16,14 +17,19 @@ const CommonPage = () => {
         <div className='editLogo'>
             <div className='uniqueLogo'>
            <Link className='linkStyle' to={'/'}>< Logo /></Link>
+
            </div>
+           
            <div className='getStarted '><GetStarted/></div>
+           
         </div>
+        {/* <TopNavigation/> */}
+
 
 
 
         <div className='flexProperty'>
-            <hr className='commonPageHr'/>
+            {/* <hr className='commonPageHr'/> */}
         </div>
         <div className='mainContainer'>
         <div className='commonContainer'>
@@ -34,7 +40,7 @@ const CommonPage = () => {
                 <div className='commonPic1'>
         <img className='profileImg' src='https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2z1jaUw5sRS4wfasqV74Q125cdS7q7GulMFTYaS2snZZNSq1F' alt=""/>
         <div className='profileName'>
-        <div>Dmitry Nozhenko</div>
+        <div>RK 2999643</div>
         <DateExt dateExt={'Jan 28, 2019 · 10 min read'}/>
         </div>
         </div>
@@ -60,6 +66,8 @@ const CommonPage = () => {
 
         </div> 
     </div>
+    <Latest/>
+
     </div>
   )
 }

@@ -18,7 +18,8 @@ const Home = () => {
     <>
     <div className='LMobile' ><LogoMobile/></div>
     <div className='LLocal' ><Logo/>
-      <TopNavigation/></div>
+      <TopNavigation/>
+      </div>
       <Store>
         <Banner />
         <Latest />

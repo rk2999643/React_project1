@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <div className='foot-container'>
                 <div className='Sub-cont1'>
-                    <h1>The Siren</h1>
+                    <h1 style={{fontFamily:'cursive',fontSize:'50px'}}>The Siren</h1>
                     <ion-icon name="logo-facebook" className='fb' ></ion-icon> 
                     <ion-icon name="logo-instagram"></ion-icon>
                     <ion-icon name="logo-youtube"></ion-icon>
@@ -13,10 +13,13 @@ const Footer = () => {
                 </div>
 
                 <div className='Sub-cont2'>
-                    <h2>About Us</h2><br/>
+                    <input placeholder='Email Address' />
+                    <br/><br/>
+                    <label style={{fontSize:'20px'}}>Subscribe</label>
+                    {/* <h2>About Us</h2><br/>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Reprehenderit dolorem eius ut nemo quidem maxime  </p>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Reprehenderit dolorem eius ut nemo quidem maxime  </p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Reprehenderit dolorem eius ut nemo quidem maxime  </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Reprehenderit dolorem eius ut nemo quidem maxime  </p> */}
                    
                 </div>
 
@@ -30,7 +33,10 @@ const Footer = () => {
                 </div>
                 <div className='Sub-cont4'>
                     <h2>Contact Us</h2>
-                    <h4>+ 84-3554856</h4>
+                    <h4>+ 84-3554856</h4><br/>
+                    <h2>About Us</h2>
+                    <img className='icons' alt='' src='https://freepngimg.com/thumb/social_media/74031-instagram-icons-media-youtube-computer-facebook-social-thumb.png'/>
+
                 </div>
 
             </div>
